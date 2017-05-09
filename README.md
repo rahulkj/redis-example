@@ -8,8 +8,10 @@ To Test:
 
 -	Do a POST to the endpoint
 
-http://redis-example.<TLD>/person/
+http://redis-example.[TLD]/person/
 
 and send the body {"id":"1","firstName":"Test","lastName":"Test"}
 
--	Then try a GET to http://redis-example.<TLD>/person/1
+-	Then try a GET to http://redis-example.[TLD]/person/1
+
+**NOTE: Please update the TLD**
